@@ -1,3 +1,11 @@
-p {
-    color: red;
-  }
+@font-face {
+    font-family: 'rock_saltregular';
+    src: url('../fonts/rocksalt-webfont.woff') format('woff2'),
+         url('../fonts/rocksalt-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'rock_saltregular', "Bradley Hand", cursive;
+}
