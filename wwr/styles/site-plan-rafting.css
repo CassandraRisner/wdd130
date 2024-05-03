@@ -1,0 +1,58 @@
+@import url(https://fonts.google.com/specimen/Libre+Baskerville?query=libre);
+
+body {
+    font-family: var(libre), Helvetica, sans-serif;
+    max-width: 960px;
+    padding: 20px
+}
+
+:root {
+    primary-color: #C7EEF9;
+    secondary-color:#7E8475;
+    accent1-color: #63C7B6;
+    accent2-color: #52938C;
+
+    heading-font: var(libre), serif
+    paragraph-font: var(libre), serif
+
+    nav-background-color: #CEBEBE; 
+    nav-link-color: #2A2D34; 
+    nav-hover-link-color: #D5B9B2; 
+    nave-hover-background-color: #5A5353;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: var(libre);
+   color: #C7EEF9;
+}
+
+header {
+    padding: 20px;
+    background-color: #63C7B6;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: #CEBEBE; 
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: #2A2D34; 
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(#2A2D34);
+}
+
+nav a:hover {
+    color: var(#d5b9b2); 
+    background-color: var(#5a5353);
+}
