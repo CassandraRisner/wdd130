@@ -81,8 +81,8 @@ main {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 2px dashed blue;
+    border: 2px dashed rgb(44, 44, 116);
     padding: 1rem;
-    background-color: rgb(202, 93, 202);
+    background-color: rgb(216, 156, 216);
     color: rgb(65, 41, 13);
 }
