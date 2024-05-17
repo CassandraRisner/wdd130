@@ -78,6 +78,11 @@ main {
     margin: 1rem;
 }
 
+footer {
+    text-align: center;
+    border-top-style: solid;
+}
+
 /* Class Selectors */
 .box {
     margin: 1rem;
