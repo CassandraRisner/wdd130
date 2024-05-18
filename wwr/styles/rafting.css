@@ -30,9 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #C7EEF9;
  }
 
-/* this is where it gets messy */ 
-
- h1, {
+ h1 {
     position: absolute;
  }
  
@@ -40,24 +38,110 @@ article > img {
     float: right;
 }
 
+nav {
+    background-color: #CEBEBE; 
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: #2A2D34; 
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(#2A2D34);
+}
+
+nav a:hover {
+    color: var(#d5b9b2); 
+    background-color: var(#5a5353);
+}
  header {
      padding: 20px;
      background-color: #63C7B6;
- }
- 
- p {
-     padding: 25px;
- }
+     margin: 1rem auto;
+     display: grid; 
+     align-items: center;
+     border-bottom: 1px solid #7E8475;
+     }
 
+header > img {
+    margin: 0 0.25rem 0 1rem;
+    width: 200px;
+    height: auto;
+    position: relative;
+}
 
- .sociallinks {
-    font-style: normal;
- }
-
+header > nav {
+    font-size: 2rem;
+    margin: 0 0.25 0 1rem;
+    grid-column-start: 2;
+    flex: 1 1 100%;
+    color: #7E8475;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
 /*Style the hero container*/
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+ p {
+     padding: 25px;
+ }
+
+ .history, .adventure {
+    border-style: solid; 
+    border-color: #52938C;
+ }
+
+ .adventure {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .sociallinks {
+    font-style: normal;
+ }
+
+
+footer {
+    background-color: #C7EEF9; 
+    color: #63C7B6: 
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #63C7B6; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--nav-hover-background-color);
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
