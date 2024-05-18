@@ -1,7 +1,7 @@
 @import url(https://fonts.google.com/specimen/Libre+Baskerville?query=libre);
 
 * {
-    max-width: 100px
+    max-width: 1000px
 }
 
 body {
@@ -32,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
 
  h1 {
     position: absolute;
+ }
+
+ h2, h3 {
+    position: relative; 
  }
  
 article > img {
@@ -107,9 +111,17 @@ header > nav {
 
  .adventure {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
- }
+    height: 1200px;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.adventure > figure {
+    margin: 5px; 
+    justify-content: flex-start; 
+    align-items: flex-end; 
+}
 
  .sociallinks {
     font-style: normal;
