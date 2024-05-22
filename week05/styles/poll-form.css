@@ -47,12 +47,11 @@ legend {
 }
 
 label {
-    text-align: right;
+    text-align: center;
     padding-right: 1rem;
 }
 
 input, select, textarea {
-    text-align: center;
     padding: 0.5rem;
     font-size: 1.1rem;
 }
@@ -72,7 +71,7 @@ button {
 }
 
 button:hover {
-    background-color: blue;
+    background-color: gray;
 }
 
 footer {
