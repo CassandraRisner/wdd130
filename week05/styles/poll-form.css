@@ -30,6 +30,7 @@ form {
     border: 1px solid rgba(0, 0, 0.1); 
     border-radius: 0.5rem;
     display: grid;
+    background-color: #eee;
 }
 
 fieldset {
@@ -64,7 +65,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    border: none;
+    border: solid seagreen;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
