@@ -88,6 +88,6 @@ footer {
     margin: 1rem;
     border: 2px dashed rgb(44, 44, 116);
     padding: 1rem;
-    background-color: rgb(216, 156, 216);
+    background-color: lightgray;
     color: rgb(65, 41, 13);
 }
