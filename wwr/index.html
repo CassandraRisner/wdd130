@@ -13,7 +13,7 @@
         <img src="images/river.gif" alt="Rafting Site Logo">
 
         <nav>
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
@@ -23,28 +23,30 @@
         <div class="hero">
             <img src="images/littlecolorado-wide.jpg" alt="Background image">
             <h1>Down the River Rafting</h1>
-            <article>
-                <img src="images/rafting7_600.jpg" alt="Happy rafters">
-                <p>Our Purpose: company purpose, mission, creed, motto, etc. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, modi! Eaque, maxime iusto! Eveniet veritatis iure eaque excepturi</p>
-            </article>
         </div>
-        <section class="history">
-            <h2>History</h2>
-            <p>A brief history of the company. We are a family owned business with rafters of every level. Our son has been rafting for years, and invited mom and dad along last year. Since that time, we go rafting as a family almost weekly. Mom often stays behind with the car and food, knowing the boys will return when they are hungry. All members of the family are trained and certified instructors and trip guides, willing to help your family find their next adventure together. </p>
-        </section>
-        <section class="adventure">
-            <h2>Adventure Awaits You</h2>
-            <figure><img src="images/rafting1.avif" alt="rafting1">
-                <figcaption>Beginner's Adventure</figcaption></figure>
-            <figure><img src="images/rafting2.avif" alt="rafting2">
-                <figcaption>Looks scarier than it is</figcaption></figure>
-            <figure><img src="images/rafting3.jpg" alt="rafing3">
-                <figcaption>Only for the brave at heart</figcaption></figure>
-            <figure><img src="images/rafting4.jpg" alt="rafting4">
-                <figcaption>Pack a bag, this is a long one</figcaption></figure>
-            <figure><img src="images/rafting5.jpg" alt="rafting5">
-                <figcaption>You will know when you are ready</figcaption></figure>
-        </section>
+        <form>
+            <fieldset>
+                <legend>Sign Up for Our Newsletter</legend>
+            <div class="form-item column2">
+                <label for="user">Name:</label>
+                <input type="text" id="user" name="user">
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="form-item column1">        
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>        
+            </fieldset>
+            <button type="submit">Sign Up</button>
+        </form>    
+        <div class="button-wrapper">
+            <a class="button cta-button" href="https://cassandrarisner.github.io/wdd130/wwr/trips.html">Trips Available</a>
+          </div>
     </main>
     <footer>
         <p>©️2024 💦 Down the River Rafting 💦 Cassandra Risner</p>
