@@ -231,3 +231,13 @@ figcaption {
     border-style: solid; 
     border-color: #52938C;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 75%;
+    grid-template-rows: auto;
+    gap: 50px; 
+    margin: 50px;
+    justify-content: space-evenly;
+    align-content: space-around;
+  }
