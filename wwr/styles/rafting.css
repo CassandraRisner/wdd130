@@ -186,7 +186,7 @@ form {
     font-size: 1.2rem;
 }
 
-.button:hover:hover {
+.button:hover {
     background-color: gray;
 }
 
@@ -195,8 +195,33 @@ figcaption {
 }
 
 .button-wrapper {
-    display: block;
+    background-color: #52938C;
+    border: #2A2D34;
+    color: aliceblue;
+    padding: 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    border-radius: 12px;
+    width: 50%;
   }
 
-  
+  .cta-button {
+    font-size: 36px;
+  }
+
+  table, th, td {
+    width: 75%;
+    margin: 2rem;
+    border: 1px solid;
+    font-size: large;
+    padding: 15px;
+    text-align: left;
+    height: 50px;
+    vertical-align: bottom;
+  }
+
+  tr:hover {
+    background-color: #63C7B6;
+  }
