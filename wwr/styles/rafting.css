@@ -12,7 +12,7 @@ body {
 
 :root {
     primary-color: #C7EEF9;
-    secondary-color:#7E8475;
+    secondary-color:#c1c4be;
     accent1-color: #63C7B6;
     accent2-color: #52938C;
 
@@ -43,7 +43,7 @@ article > img {
 }
 
 nav {
-    background-color: #CEBEBE; 
+    background-color: #c1c4be; 
     font-size: 1.2rem;
     display: flex;
 }
