@@ -102,9 +102,10 @@ header > nav {
 
  p {
      padding: 25px;
+     text-align: justify;
  }
 
- .history, .adventure, .info, .profile .trips {
+ .history, .adventure, .info, .profile {
     border-style: solid; 
     border-color: #52938C;
  }
@@ -117,7 +118,7 @@ header > nav {
     padding: 10px; 
 }
 
-.adventure img, .trips {
+.adventure img {
     display: block;
     width: 100%;
 }
@@ -191,7 +192,7 @@ form {
 }
 
 figcaption {
-    font-size: large;
+    font-size: larger;
 }
 
 .button-wrapper {
@@ -224,4 +225,11 @@ figcaption {
 
   tr:hover {
     background-color: #63C7B6;
+  }
+
+  .layout {
+    width: 100%;
+    display: flex;
+    gap: 12px; 
+    flex-wrap: wrap;
   }
