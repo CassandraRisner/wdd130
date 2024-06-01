@@ -178,7 +178,7 @@ form {
     background-color: #eee;
 }
 
-button {
+.button {
     margin: 1rem;
     border: solid seagreen;
     border-radius: .5rem;
@@ -186,10 +186,17 @@ button {
     font-size: 1.2rem;
 }
 
-button:hover {
+.button:hover:hover {
     background-color: gray;
 }
 
 figcaption {
     font-size: large;
 }
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  
