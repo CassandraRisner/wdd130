@@ -104,7 +104,7 @@ header > nav {
      padding: 25px;
  }
 
- .history, .adventure, .info, .profile {
+ .history, .adventure, .info, .profile .trips {
     border-style: solid; 
     border-color: #52938C;
  }
@@ -117,7 +117,7 @@ header > nav {
     padding: 10px; 
 }
 
-.adventure img, {
+.adventure img, .trips {
     display: block;
     width: 100%;
 }
