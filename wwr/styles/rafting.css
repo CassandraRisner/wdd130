@@ -189,3 +189,7 @@ button {
 button:hover {
     background-color: gray;
 }
+
+figcaption {
+    font-size: large;
+}
