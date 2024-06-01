@@ -11,8 +11,8 @@ body {
 }
 
 :root {
-    primary-color: #C7EEF9;
-    secondary-color:#c1c4be;
+    primary-color: #5ca6bb;
+    secondary-color:#adb1a9;
     accent1-color: #63C7B6;
     accent2-color: #52938C;
 
@@ -27,7 +27,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(libre);
-    color: #C7EEF9;
+    color: #5ca6bb;
  }
 
  h1 {
@@ -43,7 +43,7 @@ article > img {
 }
 
 nav {
-    background-color: #c1c4be; 
+    background-color: #adb1a9; 
     font-size: 1.2rem;
     display: flex;
 }
@@ -70,7 +70,7 @@ header {
      margin: 1rem auto;
      display: grid; 
      align-items: center;
-     border-bottom: 1px solid #7E8475;
+     border-bottom: 1px solid #adb1a9;
 }
 
 header > img {
@@ -85,7 +85,7 @@ header > nav {
     margin: 0 0.25 0 1rem;
     grid-column-start: 2;
     flex: 1 1 100%;
-    color: #7E8475;
+    color: #adb1a9;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -139,7 +139,7 @@ header > nav {
  }
 
 footer {
-    background-color: #C7EEF9; 
+    background-color: #5ca6bb; 
     color: #63C7B6;  
     padding: 25px 50px;
     margin-top: 200px;
@@ -188,11 +188,12 @@ form {
 }
 
 .button:hover {
-    background-color: gray;
+    background-color: adb1a9;
 }
 
 figcaption {
-    font-size: larger;
+    font-size: 36px; 
+    font-style: oblique;
 }
 
 .button-wrapper {
@@ -228,8 +229,7 @@ figcaption {
   }
 
   .layout {
-    width: 100%;
     display: flex;
-    gap: 12px; 
-    flex-wrap: wrap;
+    border-style: solid; 
+    border-color: #52938C;
   }
